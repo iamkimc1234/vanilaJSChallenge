@@ -1,0 +1,77 @@
+.information {
+  width: 400px;
+  height: 200px;
+  margin: 20px 20px;
+  /* background-color: teal; */
+}
+
+.datetime {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin: 0;
+}
+
+#weather {  
+  display: inline;
+}
+
+#wIcon {
+  width: 45px;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  top: 200px;
+}
+.greetings,
+.user-form,
+.todo-form,
+.list-title {
+  text-align: center;
+}
+
+.user-form,
+.greetings,
+.todos {
+  display: none;
+}
+
+#todo-input {
+  width: 50%;
+}
+
+.todo-list {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.todo-list-section {
+  width: 40%;
+  border: 1px red solid;
+}
+
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 2s linear;
+  vertical-align: middle;
+  opacity: 0.5;
+}

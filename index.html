@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Home</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />    
+  </head>
+  <body class="background">
+    <div class="information">
+      <h2 id="date" class="datetime">2021/04/29</h2>
+      <h2 id="clock" class="datetime">00:00:00</h2>
+      <h2 id="weather" class="datetime" ></h2>
+      <img id="wIcon" class="datetime"/>
+      <h2 id="weather2" class="datetime" ></h2>      
+    </div>
+    <form class="user-form">
+      <input id="userName" type="text" placeholder="Please, input your name."/>
+    </form>
+    <h4 class="greetings"></h4>
+    <div class="todos">
+      <form class="todo-form" autocomplete="off" >
+        <input id="todo-input" type="text" placeholder="Input your job to do!" />
+      </form>
+      <div class="todo-list">
+        <div class="todo-list-section">
+          <h4 class="list-title">Todo List</h4>
+          <ul class="todo-list-item">
+          </ul>
+        </div>
+        <div class="todo-list-section">
+          <h4 class="list-title">Finished List</h4>
+          <ul class="finished-list-item">
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/backgroundimage.js"></script>
+    <script src="js/user.js"></script>
+  </body>
+</html>
