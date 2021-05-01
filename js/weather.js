@@ -3,7 +3,7 @@ const weather2 = document.querySelector("#weather2");
 const elDayIcon = document.querySelector("#wIcon");
 
 const COORDS = "coords";
-const API_KEY = "c0f48c991256ea975f61014810292362";
+const API_KEY = "temp";
 
 function getWeather(lat, lng) {
   fetch(
